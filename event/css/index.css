@@ -1,0 +1,83 @@
+.f2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 62px;
+    font-family: 'Î¢ÈíÑÅºÚ', 'ËÎÌå';
+    color: #666;
+    height: 120px;
+    line-height: 120px;
+}
+.main{
+    padding: 45px 0;
+    margin: 0 auto;
+    width: 980px;
+    min-height: 760px;
+}
+.main .history{
+    background: url("../img/line04.gif") repeat-y 187px 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 59px;
+}
+.main .history .history-date{
+    width: 100%;
+    overflow: hidden;
+}
+.main .history .history-date>h2{
+    background: url("../img/icon06.gif") no-repeat 158px 0px, url("../img/icon08.gif") no-repeat 130px 50%;
+    height: 60px;
+    line-height: 60px;
+    text-indent: 45px;
+    color: #00bbff;
+    font-size: 25px;
+    font-family: Î¢ÈíÑÅºÚ;
+    font-weight: normal;
+    margin-bottom: 74px;
+    cursor: pointer;
+}
+.main .history .history-date ul li{
+    background: url(../img/icon07.gif) no-repeat 180px 0;
+    padding-bottom: 50px;
+    zoom: 1;
+}
+.main .history .history-date ul li>div{
+    width: 682px;
+    float: left;
+    padding-left: 41px;
+    margin-top: -5px;
+    font-family: Î¢ÈíÑÅºÚ;
+}
+.main .history .history-date ul li h4{
+    width: 168px;
+    text-align: right;
+    padding-right: 19px;
+    color: #c3c3c3;
+    font: normal 18px/16px Arial;
+    float: left;
+}
+.main .history .history-date ul li h4 span{
+    display: block;
+    color: #d0d0d0;
+    font-size: 12px;
+}
+.main .history .history-date ul li>div h3{
+    font: 20px/22px Î¢ÈíÑÅºÚ;
+    color: #737373;
+}
+.main .history .history-date ul li>div p{
+    display: block;
+    color: #787878;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.main .history .history-date ul li>div h5{
+    font: 20px/22px Î¢ÈíÑÅºÚ;
+    color: #737373;
+    font-size: 24px;
+    line-height: 28px;
+}
+.main .history .history-date ul li h4.green{
+    color: #1db702;
+}

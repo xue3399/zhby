@@ -1,0 +1,67 @@
+body{
+    font: 12px/1.5 'Microsoft YaHei',Î¢ÈíÑÅºÚ,'Microsoft JhengHei',»ªÎÄÏ¸ºÚ,STHeiti,MingLiu,Arial,simsun,ËÎÌåb8b\4f53;
+    background-color: #fafafa;
+}
+.containe{
+    width: 100%;
+}
+.containe .banner{
+    width: 100%;
+    height: 200px;
+
+}
+.containe .notice{
+    padding-top: 30px;
+    width: 1140px;
+    margin: 0 auto;
+}
+.containe .banner img{
+    width: 100%;
+    height: 100%;
+}
+.containe h1{
+    margin: 20px 0;
+    text-align: center;
+    color: #999999;
+    font-size: 24px;
+}
+.notice ol li {
+    color: #555;
+    font-size: 16px;
+    line-height: 3;
+}
+strong{
+    font-weight: bold;
+}
+.notice ol li .p120 li.point{
+    list-style: disc !important;
+}
+.notice ol li:last-child {
+    margin-bottom: 20px;
+}
+.notice_2 img {
+    height: 600px;
+}
+.notice_pic1 img, .notice_2 img {
+    box-shadow: 0 3px 8px #949696;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.appear {
+    -webkit-animation: mk_scale .5s 1 cubic-bezier(0.445,0.05,0.55,0.95);
+    -moz-animation: mk_scale .5s 1 cubic-bezier(0.445,0.05,0.55,0.95);
+    -o-animation: mk_scale .5s 1 cubic-bezier(0.445,0.05,0.55,0.95);
+    animation: mk_scale .5s 1 cubic-bezier(0.445,0.05,0.55,0.95);
+    opacity: 1 !important;
+}
+@keyframes mk_scale {
+    0% {
+        transform: scale(0.3);
+        opacity: .1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

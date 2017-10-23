@@ -1,0 +1,194 @@
+body{
+    font-size: 16px;
+    line-height: 24px;
+}
+#dowebok .section .sectionBox{
+    width: 1260px;
+    margin: 0 auto;
+    text-align: center;
+}
+#dowebok .section .sectionBox .logo2{
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    width: 281px;
+    height: 139px;
+    margin-left: -80px;
+    transition: all 1s;
+}
+#dowebok .section .sectionBox .bg-f1{
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    width: 90%;
+    height: 55px;
+    margin-left: -433px;
+    font-size: 40px;
+    transition: all 1s;
+    font-weight: bold;
+    color: #fff;
+    line-height: 55px;
+    letter-spacing: 1px;
+}
+#dowebok .section .sectionBox .bg-f1 em{
+    color: #c58a00;
+    font-style: normal;
+    text-shadow: 0 0 18px rgba(192, 148, 83, 0.8);
+}
+#dowebok .section .sectionBox .bg-f2{
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 90%;
+}
+#dowebok .section .sectionBox .bg-f2 strong{
+    color: #c58a00;
+    font-style: normal;
+    text-shadow: 0 0 18px rgba(192, 148, 83, 0.8);
+}
+#dowebok .section .sectionBox .bg-f4{
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    transition: all 1.7s;
+    font-size: 26px;
+    width: 75%;
+    line-height: 40px;
+    color: #fff;
+}
+#dowebok .section .sectionBox .bg-1{
+    z-index: auto;
+    width: 370px;
+    height: 548px;
+    position: absolute;
+    left: 70%;
+    top: 2%;
+    background: url("../../home/img/bg1_right_pen.png") no-repeat;
+}
+#dowebok .section .img{
+    padding-top: 84px;
+}
+#dowebok .section .img,#dowebok .section .sectionBox2{
+    width: 1005px;
+    margin: 0 auto;
+    position: relative;
+}
+#dowebok .section .sectionBox2 .leftBox,#dowebok .section .sectionBox2 .rightBox{
+    width: 350px;
+    text-align: center;
+}
+#dowebok .section .sectionBox2 .rightBox{
+    position: absolute;
+    right: 0%;
+    top: -100px;
+}
+#dowebok .section .sectionBox2 .leftBox{
+    position: absolute;
+    left: -40px;
+    top: -100px;
+}
+#dowebok .section .sectionBox2 .leftBox h2,#dowebok .section .sectionBox2 .rightBox h2{
+    color: #ea6868;
+    text-align: center;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+}
+#dowebok .section .sectionBox2 .leftBox p,#dowebok .section .sectionBox2 .rightBox p{
+    color: rgb(102, 102, 102);
+    margin-top: 15px;
+    text-align: center;
+}
+
+#dowebok .threeBox{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    background: rgb(236, 100, 100);
+    position: relative;
+}
+#dowebok .threeBox h3{
+    font-size: 26px;
+    line-height: 40px;
+    height: 40px;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+#dowebok .threeBox ul{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+#dowebok .threeBox ul li{
+    text-indent: 40px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 30px;
+}
+#dowebok .threeBox .bg3{
+    background: url("../img/bg3_people.png") no-repeat 600px 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#dowebok .phone{
+    width: 1028px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+#dowebok .phone p{
+    position: absolute;
+}
+#dowebok .phone p:nth-of-type(1){
+    left: 0%;
+    top: 55px;
+}
+#dowebok .phone p:nth-of-type(2){
+    left:47%;
+    top: -65px;
+}
+#dowebok .last{
+    width: 100%;
+    height: 100%;
+}
+#dowebok .last .lastImg{
+    width: 900px;
+    position: absolute;
+    top: -10%;
+    left: 5%;
+}
+#dowebok .last .lastImg img{
+    display: block;
+    width: 100%;
+}
+#dowebok .last p{
+    position: absolute;
+    width: 350px;
+    height: 629px;
+    right: 10%;
+    top: 50%;
+    margin: 130px 0 0 0;
+    font-size: 22px;
+    color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

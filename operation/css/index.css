@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(250, 250, 250);
+    font: 12px/1.5 "Microsoft YaHei", Î¢ÈíÑÅºÚ, "Microsoft JhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, Arial, simsun, ËÎÌåb8bÌå;
+}
+.share_vd{
+    width: 1240px;
+    margin: 30px auto;
+}
+.share_vd h2{
+    width: 1220px;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    line-height: 24px;
+    padding: 5px 10px;
+    background-color: #f3f3f3;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.share_vd h2 em{
+    font-weight: bold;
+    color: #74b52e;
+}
+.share_bd {
+    line-height: 24px;
+    font-size: 14px;
+}
+.share_bd li em {
+    color: #74b52e;
+    font-weight: bold;
+}
+.share_bd li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+}
+.wechart2{
+    width: 500px;
+    margin: 30px auto;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+.wechart2 dd{
+    width: 220px;
+    float: left;
+}
+.wechart2 dd span {
+    display: block;
+    line-height: 30px;
+    text-align: center;
+}
+.wechart2 dd span img{
+    margin-left: 46px;
+}
+#video{
+    width: 1240px;
+    margin: 0 auto;
+}
+#video video{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
+.share_bd h3 {
+    line-height: 30px;
+    color: #74b52e;
+    padding-bottom: 0;
+    font-size: 18px;
+}
+.share_bd li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+}
+

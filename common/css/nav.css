@@ -1,0 +1,129 @@
+.xue{
+    height: 84px;
+}
+.navbox {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.8);
+    padding: 0 20px;
+    font-family: "Î¢ÈíÑÅºÚ","ËÎÌå","Arail";
+    z-index: 99999;
+}
+.navbox .nav{
+    width: 1260px;
+    margin: 0 auto;
+}
+.navbox .nav .logo{
+    width: 305px;
+    float: left;
+}
+.navbox .nav .logo a{
+    display: block;
+    float: left;
+    height: 84px;
+    line-height: 84px;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    transition:.3s;
+}
+.navbox .nav .logo a:nth-of-type(1){
+    width: 110px;
+    position: absolute;
+    top: 10px;
+}
+.navbox .nav .logo a:nth-of-type(2){
+    width: 90px;
+    margin-left: 110px;
+}
+.navbox .nav .logo a:nth-of-type(3){
+    width: 102px;
+}
+.navbox .nav .logo a:hover{
+    color: #FAC16A;
+}
+.navbox .nav ul{
+    width: 482px;
+    float: right;
+}
+.navbox .nav ul li{
+    width: 106px;
+    height: 84px;
+    line-height: 84px;
+    float: left;
+}
+.navbox .nav ul li:nth-of-type(1){
+    width: 74px;
+}
+.navbox .nav ul li:nth-of-type(2){
+    width: 90px;
+}
+.navbox .nav ul li a{
+    font-size: 16px;
+    color: #888;
+    transition:.3s;
+}
+.navbox .nav ul li a:hover{
+    color: #FAC16A;
+}
+.demoApp{
+    opacity: 0;
+    left: 100px;
+    transition:.5s;
+}
+.demoWx{
+    opacity: 0;
+    left: 200px;
+    transition:.5s;
+}
+.demo{
+    position: absolute;
+    width: 150px;
+    z-index: 1111;
+    top: 68px;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    background-color: #fff;
+}
+.demo .out {
+    border: 15px solid transparent;
+    border-bottom-color: #888;
+    top: -30px;
+    left: 40%;
+}
+.in {
+    border: 14px solid transparent;
+    border-bottom-color: #fff;
+    top: -28px;
+    left: 40.5%;
+}
+.demo .out,.demo .in {
+    position: absolute;
+    width: 0;
+    height: 0px;
+}
+.demo img {
+    width: 93%;
+    padding: 5px 5px 0px 5px;
+    height: 90%;
+}
+.demo>.f1{
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+}
+img {
+    display: block;
+    border: none;
+}
+.navbox .nav .logo #A1:hover+.demoApp{
+    opacity:1;
+}
+.navbox .nav .logo #A2:hover+.demoWx{
+    opacity:1;
+}
